@@ -1,13 +1,12 @@
-
-
+import Register from "./components/Auth/Register"
+import Login from "./components/Auth/login"
 function App() {
  
 
   return (
     <>
-     
-     <h1>Chai aur react </h1>
-       
+      {/* <Register /> */}
+<Login />
     </>
   )
 }
