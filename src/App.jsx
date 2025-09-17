@@ -1,12 +1,15 @@
-import Register from "./components/Auth/Register"
-import Login from "./components/Auth/login"
+import Login from "./pages/Login/Login"
+import Register from "./pages/Register/Register"
+import AppRoutes from "./routes/AppRoutes"
 function App() {
  
 
   return (
     <>
-      {/* <Register /> */}
-<Login />
+      <h1>Messmate</h1>
+      <p>Welcome to Messmate!</p>
+  <AppRoutes></AppRoutes>
+
     </>
   )
 }
